@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Договор</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <link rel="stylesheet" href="jquery.datetimepicker.min.css"/>
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/style_contr.css">
+    <script type = "text/javascript" src = "https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.3/vue.min.js">
+    </script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand" href="index.html">Конструктор</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a class="nav-link" href="#">О сайте</a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="#">Подбор договора</a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="#">Контакты</a>
+                            </li>
+                        </ul>
+                        <form class="form-inline ml-auto">
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="basic-addon1"><a href="#"><i class="fa fa-search"></i></a></span>
+                                </div>
+                                <input class="form-control  border-0" type="search" placeholder="Поиск шаблонов на сайте" aria-label="Search" size="25">
+                            </div>
+                        </form>
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="#">Вход</a></li>
+                                <li class="breadcrumb-item"><a href="#">Регистрация</a></li>
+                            </ol>
+                        </nav>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+<div class="container">
+    <h2>Мелкий ремонт в доме</h2>
+    <div class="grid-posts">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-7">
+                    <h3 id="t1">1 Укажите тип жилого помещения</h3>
+                    <div class="content">
+                    <div class="row justify-content-start">
+                        <div class="col-md-4">
+                        <div class="custom-control custom-radio">
+                            <input type="radio" class="custom-control-input" name="exampleRadios" id="radio1" value="option1" ><label class="custom-control-label" for="radio1">Частный дом</label>
+                        </div>
+                        </div>
+                        <div class="col-md-4">
+                        <div class="custom-control custom-radio">
+                            <input type="radio" class="custom-control-input" name="exampleRadios" id="radio2" value="option2" ><label class="custom-control-label" for="radio2">Квартира</label>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+
+                    <h3 id="t2">2 Перечислите перечень выполняемых работ</h3>
+                    <div class="content">
+                    <div class="row justify-content-start">
+                        <div class="col-md-6">
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="form-check-input" id="checkdox"><label class="form-check-label" for="checkdox">Сантехнические работы</label>
+
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="form-check-input" id="checkdox"><label class="form-check-label" for="checkdox">Поклейка обоев</label>
+                            </div>
+                        </div>
+                        </div>
+                    <div class="row justify-content-start">
+                        <div class="col-md-6">
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="form-check-input" id="checkdox"><label class="form-check-label" for="checkdox">Электромотажные работы</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="form-check-input" id="checkdox">Сборка мебели<br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-start">
+                        <div class="col-md-6">
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="form-check-input" id="checkdox"><label class="form-check-label" for="checkdox">Услуги плиточника</label>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+
+                    <h3 id="t3" class="head">3 Залог</h3>
+                    <h4 class="">Хотите ли вы, чтобы съемщик жилья оставил вам залог?</h4>
+                    <div class="content">
+                    <div class="row justify-content-start">
+                        <div class="col-md-4">
+                            <div class="custom-control custom-radio">
+                                <input type="radio" class="custom-control-input" name="exampleRadios1" id="radio3" value="option3"><label class="custom-control-label" for="radio3">Нет, залог не нужен</label>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="custom-control custom-radio">
+                                <input type="radio" class="custom-control-input" name="exampleRadios1" id="radio4" value="option4"><label class="custom-control-label" for="radio4">Да, залог нужен</label>
+
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+
+                    <h3 class="head">Укажите сумму залога</h3>
+                    <h5>Сумма залога</h5>
+
+                    <div class="btn-group">
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            23 500p
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-left" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">24 000р</a>
+                            <a class="dropdown-item" href="#">24 500р</a>
+                            <a class="dropdown-item" href="#">25 000р</a>
+                        </div>
+                    </div>
+                    </div>
+
+                    <h3 class="head" id="t4">4 Дата и время прибытия</h3>
+                    <h4 class="head">Укажите дату и время прибытия бригады</h4>
+                    <div class="nav">
+                       <div class="row">
+                        <div class="col-md-6">
+                            <h5 class="date">Дата прибытия</h5>
+                            <div id="data">
+                                <vuejs-datepicker placeholder="Дата / xx xx xxxx"></vuejs-datepicker>
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-6">
+                            <h5>Время прибытия</h5>
+
+                            <div class="btn-group">
+                                <div class="dropdown">
+                                    <button  class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Время / xx:xx
+                                    </button>
+                                    <div class="dropdown-menu dropdown-menu-left" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item" href="#">1</a>
+                                        <a class="dropdown-item" href="#">2</a>
+                                        <a class="dropdown-item" href="#">3</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="nav nav-pills">
+                            <div class="nav-item">
+                                <button type="button" class="btn btn-outline-warning">Составить документ</button>
+                            </div>
+                        </div>
+                        <div class="save">
+                            <div class="nav">
+                            <a class="nav-link active" href="#">Сохранить как черновик</a>
+                            <img class="arrow" src="arrow.png" width="8" height="15"  alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+                <div class="col-md-5">
+
+                    <h3>Этапы заполнения шаблона</h3>
+                        <div class="row">
+                            <ul class="nav flex-column">
+                                <a class="nav-link active" href="#t1">1 Тип жилого помещения</a>
+
+                                <a class="nav-link active" href="#t2">2 Перечень выполняемых работ</a>
+
+                                <a class="nav-link active" href="#t3">3 Залог</a>
+
+                                <a class="nav-link active" href="#t4">4 Дата и время прибытия</a>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <div class="container">
+        <div class="d-flex justify-content-flex-start">
+            <div class="col-lg-4">
+                <a href="#">Сервис быстрого заключения договоров</a>
+            </div>
+            <div class="col-lg-4">
+                <a href="#" style="color: #383da1">Политика использования сервиса</a>
+            </div>
+            <div class="footer-right col-lg-4">
+                <h6>Developed by CPC,2020</h6>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"></script>
+<script src="https://unpkg.com/vue"></script>
+<script src="https://unpkg.com/vuejs-datepicker"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+<script type="text/javascript" src="vue-timeselector.js"></script>
+<script type = "text/javascript">
+    var vue_det = new Vue({
+        el: '#intro',
+        data: {
+            timestamp: ""
+        },
+        created() {
+            setInterval(this.getNow, 1000);
+        },
+        methods: {
+            getNow: function() {
+                const today = new Date();
+                const date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+                const time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+                const dateTime = date +' '+ time;
+                this.timestamp = dateTime;
+            }
+        }
+    });
+</script>
+<script>
+    const app = new Vue({
+        el: '#data',
+        components: {
+            vuejsDatepicker
+        },
+        placeholder: 'Дата'
+    })
+</script>
+</body>
+</html>
